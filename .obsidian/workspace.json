@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5238c2b36577064c",
+        "id": "52fca191d8748303",
         "type": "tabs",
         "children": [
           {
-            "id": "b202f2744db32473",
+            "id": "6d2bf8ae6c390e1a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Android Interview Note/OOPs/Pillers/1) Encapsulation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1) Encapsulation"
             }
           }
         ]
@@ -165,11 +169,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "b202f2744db32473",
+  "active": "6d2bf8ae6c390e1a",
   "lastOpenFiles": [
-    "Android Interview Note/Syllabus.md",
-    "Gate 2026 Prepration/Operating System/Scheduling/8) Multilevel Feedback Queue (MLFQ) Scheduling.md",
     "Android Interview Note/OOPs/1) Inner vs Nested Class.md",
+    "Android Interview Note/OOPs/Pillers/1) Encapsulation.md",
+    "Android Interview Note/Syllabus.md",
+    "Android Interview Note/OOPs/Pillers",
+    "Android Interview Note/Threads and Coroutines/4) Flows.md",
+    "Android Interview Note/Threads and Coroutines/3) launch, async-await, supervisorScope.md",
+    "Android Interview Note/Threads and Coroutines/2) Coroutines.md",
+    "Android Interview Note/Threads and Coroutines/1) Threads.md",
+    "Android Interview Note/OOPs/2) Sealed vs Enum classes.md",
+    "Android Interview Note/Navigation In Jetpack Compose/Navigation 1.md",
+    "Android Interview Note/List, Array & Streams/map, filter, fold, reduce, flatMap.md",
+    "Android Interview Note/Navigation In Jetpack Compose",
+    "Gate 2026 Prepration/Operating System/Scheduling/8) Multilevel Feedback Queue (MLFQ) Scheduling.md",
     "Gate 2026 Prepration/Operating System/Scheduling/7) Multilevel Queue (MLQ) Scheduling.md",
     "Gate 2026 Prepration/Operating System/Scheduling/6) Priority Scheduling.md",
     "Gate 2026 Prepration/Operating System/Scheduling/5) Round Robin (RR) Scheduling.md",
@@ -178,14 +192,8 @@
     "Gate 2026 Prepration/Operating System/Scheduling/2) First Come First Serve (FCFS).md",
     "Gate 2026 Prepration/Operating System/Scheduling/1) Process Scheduling.md",
     "Gate 2026 Prepration/Operating System/Scheduling",
-    "Android Interview Note/List, Array & Streams/map, filter, fold, reduce, flatMap.md",
     "Gate 2026 Prepration/Operating System",
     "Gate 2026 Prepration",
-    "Android Interview Note/Threads and Coroutines/4) Flows.md",
-    "Android Interview Note/Threads and Coroutines/3) launch, async-await, supervisorScope.md",
-    "Android Interview Note/Threads and Coroutines/2) Coroutines.md",
-    "Android Interview Note/Threads and Coroutines/1) Threads.md",
-    "Android Interview Note/OOPs/2) Sealed vs Enum classes.md",
     "Android Interview Note/OOPs",
     "Android Interview Note/List, Array & Streams",
     "Untitled.base",
@@ -193,9 +201,7 @@
     "Untitled.canvas",
     "Android Interview Note/whiteboards/68bc3da3-6b70-446d-9d77-abc335563c99.edn",
     "Android Interview Note/whiteboards",
-    "Android Interview Note/logseq/custom.css",
     "Android Interview Note/pages/contents.md",
-    "Android Interview Note/pages",
     "2025-09-05.md"
   ]
 }
