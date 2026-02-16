@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android Interview Note/OOPs/Pillers/3) Abstraction.md",
+                "file": "Android Interview Note/OOPs/Class/2) Constructor (Kotlin).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3) Abstraction"
+              "title": "2) Constructor (Kotlin)"
             }
           }
         ]
@@ -171,8 +171,11 @@
   },
   "active": "0bb0074d6a99dfee",
   "lastOpenFiles": [
-    "Android Interview Note/OOPs/Pillers/4) Polymorphism.md",
+    "Android Interview Note/OOPs/Class/1) Constructor (JAVA).md",
+    "Android Interview Note/OOPs/Class/2) Constructor (Kotlin).md",
     "Android Interview Note/OOPs/Pillers/3) Abstraction.md",
+    "Android Interview Note/OOPs/Class",
+    "Android Interview Note/OOPs/Pillers/4) Polymorphism.md",
     "Android Interview Note/OOPs/Pillers/2) Inheritance.md",
     "Android Interview Note/OOPs/Pillers/1) Encapsulation.md",
     "Android Interview Note/OOPs/1) Inner vs Nested Class.md",
@@ -203,7 +206,6 @@
     "2025-09-06.md",
     "Untitled.canvas",
     "Android Interview Note/whiteboards/68bc3da3-6b70-446d-9d77-abc335563c99.edn",
-    "Android Interview Note/whiteboards",
     "Android Interview Note/pages/contents.md",
     "2025-09-05.md"
   ]
