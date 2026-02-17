@@ -294,27 +294,19 @@ The copy constructor shown earlier creates a **shallow copy**.
 ## 🔹 Example of Shallow Copy
 
 ```java
-class Address {
-    String city;
-
-    Address(String city) {
-        this.city = city;
-    }
-}
-
 class Student {
     String name;
-    Address address;
+    int age;
 
-    Student(String name, Address address) {
+    Student(String name, int age) {
         this.name = name;
-        this.address = address;
+        this.age = age;
     }
 
     // Shallow Copy Constructor
     Student(Student other) {
         this.name = other.name;
-        this.address = other.address;  // Reference copied
+        this.age = other.age;
     }
 }
 ```
@@ -322,23 +314,22 @@ class Student {
 Now:
 
 ```java
-Address addr = new Address("Delhi");
-Student s1 = new Student("Rahul", addr);
+Student s1 = new Student("Rahul", 20);
 Student s2 = new Student(s1);
 
-s2.address.city = "Mumbai";
+s2.name = "Shivam";
 ```
 
 ### Result:
 
-Both `s1` and `s2` will show city = "Mumbai"
+Both `s1` and `s2` will show name = "Shivam"
 
 Because:
 
 ```java
-s1.address  ------\
-                    ---> Same Address Object
-s2.address  ------/
+s1.name  ------\
+	            ---> Same Address Object
+s2.name  ------/
 ```
 
 This is Shallow Copy.
@@ -347,54 +338,40 @@ This is Shallow Copy.
 # ✅ Deep Copy Example
 
 ```java
-class Address {
-    String city;
-
-    Address(String city) {
-        this.city = city;
-    }
-
-    // Deep copy constructor
-    Address(Address other) {
-        this.city = other.city;
-    }
-}
-
 class Student {
     String name;
-    Address address;
+    int age;
 
-    Student(String name, Address address) {
+    Student(String name, int age) {
         this.name = name;
-        this.address = address;
+        this.age = age;
     }
 
     // Deep Copy Constructor
     Student(Student other) {
-        this.name = other.name;
-        this.address = new Address(other.address); // new object created
+        this.name = new String(other.name);  // new object created
+        this.age = other.age;
     }
 }
 ```
 
 ```java
-Address addr = new Address("Delhi");
-Student s1 = new Student("Rahul", addr);
+Student s1 = new Student("Rahul", 20);
 Student s2 = new Student(s1);
 
-s2.address.city = "Mumbai";
+s2.name = "Shivam";
 ```
 
 ### Result:
 
-- s1.address.city = "Delhi"
-- s2.address.city = "Mumbai"
+- s1.name = "Rahul"
+- s2.name = "Shivam"
 
 Because:
 
 ```java
-s1.address  ---> Address Object 1
-s2.address  ---> Address Object 2
+s1.name  ---> Address Object 1
+s2.name  ---> Address Object 2
 ```
 
 completely separate memory objects.
